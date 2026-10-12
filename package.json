@@ -1,0 +1,8 @@
+{
+  "name": "transitive-call-chain-npm",
+  "version": "1.0.0",
+  "description": "Demo: app -> request (direct) -> tough-cookie (transitive, CVE-2023-26136) -> CookieJar.setCookie",
+  "main": "index.js",
+  "scripts": { "start": "node index.js" },
+  "dependencies": { "request": "2.88.2" }
+}
